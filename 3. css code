@@ -1,0 +1,68 @@
+##This CSS file controls the design and layout of the stock portfolio
+  
+body {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: violet;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: royalblue;
+    color: white;
+}
+
+.profit {
+    color: #00ff00;  /* Green for profit */
+}
+
+.loss {
+    color: #ff0000;  /* Red for loss */
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+    img {
+        width: 20px;
+    }
+}
+
+##This CSS file beautifies the stock portfolio tracker by:
+Dark theme with black background & white text
+Royal blue headers to match the theme
+Green for profit, red for loss for clarity
+Smooth hover effects for better interaction
+Mobile-friendly design for small screens
+
+##This works with Flask to create a visually appealing stock tracker! 
