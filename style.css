@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: violet;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: royalblue;
+    color: white;
+}
+
+.profit {
+    color: #00ff00;  /* Green for profit */
+}
+
+.loss {
+    color: #ff0000;  /* Red for loss */
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+    img {
+        width: 20px;
+    }
+}
+
