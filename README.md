@@ -1,7 +1,10 @@
 # Stock-Porfolio
 What is a stock portfolio tracker?
+
 A stock portfolio tracker is a tool that helps users keep track of the stocks they own. 
+
 It shows things like:
+
 Which stocks they have,
 How many shares they own,
 The price of those stocks,and 
